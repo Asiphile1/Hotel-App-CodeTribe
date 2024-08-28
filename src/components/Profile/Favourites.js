@@ -1,6 +1,18 @@
-git init
-git add . 
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Asiphile1/Hotel-App-CodeTribe.git
-git push -u origin main
+import React from 'react';
+import { useSelector } from 'react-redux';
+import AccommodationCard from '../Accommodation/AccommodationCard';
+
+const Favorites = () => {
+  const favorites = useSelector((state) => state.auth.user?.favorites || []);
+
+  return (
+    <div>
+      <h2>Your Favorite Accommodations</h2>
+      {favorites.map((fav) => (
+        <AccommodationCard key={fav.id} accommodation={fav} />
+      ))}
+    </div>
+  );
+};
+
+export default Favorites;
