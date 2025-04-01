@@ -65,21 +65,37 @@ Make sure you have the following installed on your system:
  
 
 
-Install dependencies:
+## 2. Install dependencies:
+```sh
+
 npm install
-Set up Firebase:
+```
+Some key dependencies include:
 
+```sh
+
+npm install react redux react-redux react-router-dom @mui/material axios firebase react-spinners
+```
+## 3. Set up Firebase:
 Create a Firebase project at Firebase Console.
+
 Enable Firebase Authentication and Firestore Database.
+
 Create a .env file in the root directory and add your Firebase configuration:
-env
 
+```env
 
-Start the development server:
-
+REACT_APP_API_KEY=your_api_key
+REACT_APP_AUTH_DOMAIN=your_auth_domain
+REACT_APP_PROJECT_ID=your_project_id
+REACT_APP_STORAGE_BUCKET=your_storage_bucket
+REACT_APP_MESSAGING_SENDER_ID=your_messaging_sender_id
+REACT_APP_APP_ID=your_app_id
+```
+## 4. Start the development server:
+```sh
 
 npm start
-The app should now be running at http://localhost:3000.
 
-Project Structure
-will be updated when the project is finished.
+The app should now be running at http://localhost:3000.
+```
