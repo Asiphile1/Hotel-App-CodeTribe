@@ -4,7 +4,7 @@
 
 LE' BEL MOR is a royal-themed hotel booking application designed to manage hotel accommodations, bookings, and user profiles. The app is built using React and Redux for state management, with Firebase handling authentication and Firestore for data storage. The app is responsive, ensuring a smooth user experience across devices including mobile, tablet, and desktop.
 
-## hosted link: https://hotel-app-code-tribe.vercel.app/
+## hosted link: https://hotel-app-code-tribe2.vercel.app/
 ## hosted cms link: https://asiphile1.github.io/hotel-cms/
 ## Table of Contents
 
