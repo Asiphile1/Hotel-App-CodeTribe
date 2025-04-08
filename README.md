@@ -101,3 +101,14 @@ npm start
 
 The app should now be running at http://localhost:3000.
 ```
+
+
+## Screenshots
+![Image](https://github.com/user-attachments/assets/41803e7a-3f10-45b7-beb7-62815bc1a42a)
+
+![Image](https://github.com/user-attachments/assets/74c2d527-8ade-47da-8ebf-ca6352eda22c)
+![Image](https://github.com/user-attachments/assets/9aafbe1c-c674-4429-a6d4-e9a00cadb394)
+![Image](https://github.com/user-attachments/assets/62b03b12-ccb5-49c0-a777-ae2c50a078b4)
+![Image](https://github.com/user-attachments/assets/af9d2ddc-dfa7-489e-ad68-ae846b6debad)
+![Image](https://github.com/user-attachments/assets/c1dc9354-282e-4e2f-a629-22f7ff0cd8d4)
+![Image](https://github.com/user-attachments/assets/c859c0f9-ffda-46f1-9a11-4f51db6bb11f)
